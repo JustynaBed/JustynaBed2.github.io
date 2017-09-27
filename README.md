@@ -1,4 +1,3 @@
-# JustynaBed.github.io
 # Justyna Bednarko
 
 1. Project name: **Wish generator**
