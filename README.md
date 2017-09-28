@@ -12,3 +12,5 @@
 
 
 [Działający projekt]( https://justynabed.github.io/)
+
+"ready to review @pukie"
