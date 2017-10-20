@@ -51,7 +51,6 @@ a, a:focus, a:visited, a:link {
     color: #56282D;
     font-weight: 700;
     padding-top: 40px;
-    padding-bottom: px;
 }
 .one {
     height: 650px;
@@ -96,9 +95,20 @@ a, a:focus, a:visited, a:link {
 .contact-info {
     font-size: 19px;
     padding-top: 20px;
-    padding-left: 900px;
+    float: right;
+    margin-right: 100px;
     font-family: "Book Antiqua", serif;
-
+}
+.picture-me {
+    border: 1px solid #cbbb9a;
+    border-radius: 13%;
+    padding: 2px;
+    float: left;
+    width: 145px;
+    height: 200px;
+    margin-left: 650px;
+    margin-top: 8px;
+    box-shadow: 15px 10px 20px #bfb9b9;
 }
 .contact-info h4 {
     font-size: 35px;
@@ -126,7 +136,7 @@ hr {
     padding-bottom: 15%;
     position: relative;
     height: 0px;
-    margin: 30px;
+    margin-top: 280px;
 }
 .mape iframe {
     left: 1px;
@@ -138,7 +148,7 @@ hr {
 }
 /*Footer*/
 footer{
-    height: 40px;
+    height: 33px;
     margin-top: 50px;
     padding-top: 25px;
     background-color: #cbbb9a;
