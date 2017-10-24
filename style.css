@@ -61,7 +61,7 @@ a, a:focus, a:visited, a:link {
     font-weight: 700;
     padding-top: 40px;
 }
-.one {
+.about-me-left {
     height: 650px;
     width: 100%;
     min-width: 100px;
@@ -72,7 +72,7 @@ a, a:focus, a:visited, a:link {
     margin-bottom: 100px;
     margin-top: 100px;
 }
-.two {
+.about-me-right {
     border: solid 1px #cbbb9a;
     border-radius: 8px;
     background-color: rgba(255,255,255,0.8);
@@ -84,7 +84,7 @@ a, a:focus, a:visited, a:link {
     padding: 20px 12px 20px 4px;
     margin: 10px 10px 30px 10px;
 }
-.two h3 {
+.about-me-right h3 {
     padding-top: 5px;
     padding-left: 20px;
     margin-bottom: px;
@@ -93,39 +93,100 @@ a, a:focus, a:visited, a:link {
     font-weight: 700;
     color: #4b3516;
 }
-.two h4 {
+.about-me-right h4 {
     padding-top: 5px;
     padding-left: 20px;
     margin-right: 35px;
     text-align: justify;
     color: #58561a;
 }
+/*project*/
+#project {
+    margin-top: 20px;
+    background-color: #F5F9E9;
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+.project1 {
+    border: 2px solid #6A6262;
+    border-radius: 2px;
+    padding: 8px;
+    height: 250px;
+    width: 250px;
+    margin-left: 240px;
+    margin-right: 150px;
+}
+.project-left {
+    float: left;
+}
+.project-left p {
+    font-size: 14px;
+    color: #2B2C28;
+    width: 270px;
+    margin-left: 240px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.project2 {
+    border: 2px solid #6A6262;
+    border-radius: 2px;
+    padding: 8px;
+    height: 250px;
+    width: 250px;
+    margin-right: 250px;
+    margin-left: 150px;
+}
+.project-right {
+    float: right;
+}
+.project-right p {
+    font-size: 14px;
+    color: #2B2C28;
+    width: 270px;
+    margin-right: 250px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.clear {
+    clear: both;
+}
 /*Contact*/
+.contact-info a:link {
+    color: #585858;
+    text-decoration: none;
+    cursor: pointer;
+}
 .contact-info {
-    font-size: 19px;
+    font-size: 16px;
     padding-top: 20px;
     float: right;
-    margin-right: 100px;
+    margin-right: 250px;
     font-family: "Book Antiqua", serif;
+    color: #585858;
+}
+.contact-info img {
+    width: 20px;
+    position: relative;
+    top: 5px;
 }
 .picture-me {
     border: 1px solid #cbbb9a;
-    border-radius: 13%;
+    border-radius: 15%;
     padding: 2px;
     float: left;
     width: 145px;
     height: 200px;
-    margin-left: 650px;
-    margin-top: 8px;
+    margin-left: 400px;
+    margin-top: 25px;
     box-shadow: 15px 10px 20px #bfb9b9;
 }
 .contact-info h4 {
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 3px;
     color: #2f2f2f;
 }
 .contact-info h5 {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
     color: #bfb9b9;
 }
@@ -146,5 +207,6 @@ footer{
     color: #4b3516;
     text-align: center;
 }
+
 
 
