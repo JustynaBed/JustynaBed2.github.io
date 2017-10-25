@@ -65,11 +65,11 @@ a, a:focus, a:visited, a:link {
     height: 650px;
     width: 100%;
     min-width: 100px;
-    background-image: url("Images/photo1c.jpg");
+    background-image: url("Images/BackgroundAboutMe.jpg");
     background-attachment: fixed;
     background-position: 50% 50%;
     background-size: cover ;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     margin-top: 100px;
 }
 .about-me-right {
@@ -102,11 +102,12 @@ a, a:focus, a:visited, a:link {
 }
 /*project*/
 #project {
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: #F5F9E9;
     padding-bottom: 80px;
     padding-top: 30px;
 }
+
 .project1 {
     border: 2px solid #6A6262;
     border-radius: 2px;
@@ -120,7 +121,8 @@ a, a:focus, a:visited, a:link {
     float: left;
 }
 .project-left p {
-    font-size: 14px;
+    font-family: Georgia;
+    font-size: 15px;
     color: #2B2C28;
     width: 270px;
     margin-left: 240px;
@@ -140,15 +142,38 @@ a, a:focus, a:visited, a:link {
     float: right;
 }
 .project-right p {
-    font-size: 14px;
+    font-family: Georgia;
+    font-size: 15px;
     color: #2B2C28;
-    width: 270px;
+    width: 275px;
     margin-right: 250px;
     margin-top: 10px;
     text-align: justify;
 }
 .clear {
     clear: both;
+}
+/*Skills*/
+#skills {
+    margin-top: 0px;
+    padding-top: 30px;
+    height: 700px;
+    width: 100%;
+    min-height: 450px;
+    background-image: url("Images/BackgroundSkills3.jpg");
+    background-size: cover;
+}
+.skills-left{
+    height: 500px;
+    width: 100%;
+}
+.skills-right {
+    display: inline;
+    margin-bottom: 400px;
+    margin-left: 300px;
+    height: 100px;
+    width: 100%;
+    letter-spacing: 45px;
 }
 /*Contact*/
 .contact-info a:link {
@@ -196,7 +221,7 @@ hr {
     margin-bottom:0.5em;
     margin-top: -0.4em;
     margin-left: auto;
-    border-width: 1;
+    border-width: 1px;
 }
 /*Footer*/
 footer{
