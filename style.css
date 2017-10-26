@@ -42,6 +42,7 @@ a, a:focus, a:visited, a:link {
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
+    color: #1d1010;
 }
 /*Start,home*/
 .home {
@@ -58,7 +59,6 @@ a, a:focus, a:visited, a:link {
 /*about-me*/
 #about-me h2 {
     color: #56282D;
-    font-weight: 700;
     padding-top: 40px;
 }
 .about-me-left {
@@ -142,7 +142,7 @@ a, a:focus, a:visited, a:link {
     float: right;
 }
 .project-right p {
-    font-family: Georgia;
+    font-family: Georgia, serif;
     font-size: 15px;
     color: #2B2C28;
     width: 275px;
@@ -160,7 +160,7 @@ a, a:focus, a:visited, a:link {
     height: 700px;
     width: 100%;
     min-height: 450px;
-    background-image: url("Images/BackgroundSkills3.jpg");
+    background-image: url("Images/BackgroundSkills4.jpg");
     background-size: cover;
 }
 .skills-left{
@@ -170,7 +170,8 @@ a, a:focus, a:visited, a:link {
 .skills-right {
     display: inline;
     margin-bottom: 400px;
-    margin-left: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
     height: 100px;
     width: 100%;
     letter-spacing: 45px;
@@ -232,6 +233,4 @@ footer{
     color: #4b3516;
     text-align: center;
 }
-
-
 
