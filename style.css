@@ -3,13 +3,12 @@
 }
 body {
     color: black;
-    background: #fefffd;
+    background-color: #fefffd;
     font-family: "Times New Roman", Times, serif;
 }
 /*Menu*/
 .navigation {
     background-color: white;
-    margin-top: px;
     width: 100%;
     height: 80px;
     position: fixed;
@@ -48,11 +47,10 @@ a, a:focus, a:visited, a:link {
 .home {
     width: 100%;
     min-height: 350px;
-    background-color: #e1e1e1;
     background-image: url("Images/image13.jpg");
     background-attachment: fixed;
-    background-position: 40% 40%;
-    background-size: cover ;
+    background-position: 49% 40%;
+    background-size: cover;
     margin-top: 30px;
     padding-bottom: 300px;
 }
@@ -87,13 +85,12 @@ a, a:focus, a:visited, a:link {
 .about-me-right h3 {
     padding-top: 5px;
     padding-left: 20px;
-    margin-bottom: px;
     margin-right: 30px;
     text-align: justify;
     font-weight: 700;
     color: #4b3516;
 }
-.about-me-right h4 {
+.about-me-right p {
     padding-top: 5px;
     padding-left: 20px;
     margin-right: 35px;
@@ -102,87 +99,67 @@ a, a:focus, a:visited, a:link {
 }
 /*project*/
 #project {
-    margin-top: 0px;
     background-color: #F5F9E9;
-    padding-bottom: 80px;
-    padding-top: 30px;
+    padding: 15px 0px;
+    width: 100%
 }
-
-.project1 {
+.img_project {
     border: 2px solid #6A6262;
     border-radius: 2px;
     padding: 8px;
     height: 250px;
     width: 250px;
-    margin-left: 240px;
+    margin-left: 150px;
     margin-right: 150px;
 }
-.project-left {
-    float: left;
-}
-.project-left p {
+#project p  {
     font-family: Georgia;
     font-size: 15px;
     color: #2B2C28;
     width: 270px;
-    margin-left: 240px;
+    margin-left: 150px;
     margin-top: 10px;
     text-align: justify;
 }
-.project2 {
-    border: 2px solid #6A6262;
-    border-radius: 2px;
-    padding: 8px;
-    height: 250px;
-    width: 250px;
-    margin-right: 250px;
-    margin-left: 150px;
+.project-left {
+    float: left;
 }
 .project-right {
     float: right;
 }
-.project-right p {
-    font-family: Georgia, serif;
-    font-size: 15px;
-    color: #2B2C28;
-    width: 275px;
-    margin-right: 250px;
-    margin-top: 10px;
-    text-align: justify;
-}
 .clear {
     clear: both;
 }
+/*Line*/
+hr {
+    border: 50px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 /*Skills*/
 #skills {
-    margin-top: 0px;
-    padding-top: 30px;
-    height: 700px;
+    padding-bottom: 150px;
     width: 100%;
-    min-height: 450px;
-    background-image: url("Images/BackgroundSkills4.jpg");
-    background-size: cover;
+    background-color:  #F5F9E9;
 }
 .skills-left{
-    height: 500px;
     width: 100%;
 }
 .skills-right {
-    display: inline;
-    margin-bottom: 400px;
-    margin-left: 200px;
-    margin-right: 200px;
-    height: 100px;
+    padding: 30px 0;
+    /*display: flex;*/
+    flex: 0 25%;
+    text-align: center;
     width: 100%;
-    letter-spacing: 45px;
+    letter-spacing: 20px;
 }
 /*Contact*/
-.contact-info a:link {
+.contact-right a:link {
     color: #585858;
     text-decoration: none;
     cursor: pointer;
 }
-.contact-info {
+.contact-right {
     font-size: 16px;
     padding-top: 20px;
     float: right;
@@ -190,10 +167,10 @@ a, a:focus, a:visited, a:link {
     font-family: "Book Antiqua", serif;
     color: #585858;
 }
-.contact-info img {
+.contact-right img {
     width: 20px;
-    position: relative;
     top: 5px;
+    position: relative;
 }
 .picture-me {
     border: 1px solid #cbbb9a;
@@ -206,23 +183,15 @@ a, a:focus, a:visited, a:link {
     margin-top: 25px;
     box-shadow: 15px 10px 20px #bfb9b9;
 }
-.contact-info h4 {
+.contact-right h4 {
     font-size: 30px;
     letter-spacing: 3px;
     color: #2f2f2f;
 }
-.contact-info h5 {
+.contact-right h5 {
     font-size: 16px;
     letter-spacing: 2px;
     color: #bfb9b9;
-}
-/*Line*/
-hr {
-    color: #2f2f2f;
-    margin-bottom:0.5em;
-    margin-top: -0.4em;
-    margin-left: auto;
-    border-width: 1px;
 }
 /*Footer*/
 footer{
@@ -230,7 +199,7 @@ footer{
     margin-top: 350px;
     padding-top: 25px;
     background-color: #cbbb9a;
-    color: #4b3516;
+    color: #2f2f2f;
     text-align: center;
 }
 
