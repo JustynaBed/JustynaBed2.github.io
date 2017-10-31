@@ -42,10 +42,11 @@ a, a:focus, a:visited, a:link {
     text-transform: uppercase;
     font-weight: 700;
     color: #1d1010;
+
 }
 /*Start,home*/
 .home {
-    width: 100%;
+    max-width: 100%;
     min-height: 350px;
     background-image: url("Images/image13.jpg");
     background-attachment: fixed;
@@ -61,7 +62,7 @@ a, a:focus, a:visited, a:link {
 }
 .about-me-left {
     height: 650px;
-    width: 100%;
+    max-width: 100%;
     min-width: 100px;
     background-image: url("Images/BackgroundAboutMe.jpg");
     background-attachment: fixed;
@@ -81,6 +82,7 @@ a, a:focus, a:visited, a:link {
     float: right;
     padding: 20px 12px 20px 4px;
     margin: 10px 10px 30px 10px;
+    max-width: 100%;
 }
 .about-me-right h3 {
     padding-top: 5px;
@@ -101,9 +103,10 @@ a, a:focus, a:visited, a:link {
 #project {
     background-color: #F5F9E9;
     padding: 15px 0px;
-    width: 100%
+    max-width: 100%;
 }
 .img_project {
+    max-width: 100%;
     border: 2px solid #6A6262;
     border-radius: 2px;
     padding: 8px;
@@ -123,9 +126,11 @@ a, a:focus, a:visited, a:link {
 }
 .project-left {
     float: left;
+    max-width: 100%;
 }
 .project-right {
     float: right;
+    max-width: 100%;
 }
 .clear {
     clear: both;
@@ -138,9 +143,10 @@ hr {
 }
 /*Skills*/
 #skills {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     width: 100%;
     background-color:  #F5F9E9;
+    max-width: 100%;
 }
 .skills-left{
     width: 100%;
@@ -154,49 +160,60 @@ hr {
     letter-spacing: 20px;
 }
 /*Contact*/
+.info__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
 .contact-right a:link {
     color: #585858;
     text-decoration: none;
     cursor: pointer;
 }
 .contact-right {
-    font-size: 16px;
     padding-top: 20px;
-    float: right;
-    margin-right: 250px;
     font-family: "Book Antiqua", serif;
     color: #585858;
+    max-width: 100%;
+    flex: auto;
 }
 .contact-right img {
-    width: 20px;
+    width: 4%;
     top: 5px;
     position: relative;
+}
+.contact-right h4 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    color: #2f2f2f;
+    text-align: center;
+}
+.contact-right h5 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #bfb9b9;
+    text-align: center;
+}
+.contact-right p {
+    text-align: justify;
+    margin-left: 35%;
+}
+.contact-left {
+    flex: 2;
+    text-align: center;
 }
 .picture-me {
     border: 1px solid #cbbb9a;
     border-radius: 15%;
     padding: 2px;
-    float: left;
-    width: 145px;
-    height: 200px;
-    margin-left: 400px;
-    margin-top: 25px;
+    width: 22%;
+    height: 32%;
     box-shadow: 15px 10px 20px #bfb9b9;
-}
-.contact-right h4 {
-    font-size: 30px;
-    letter-spacing: 3px;
-    color: #2f2f2f;
-}
-.contact-right h5 {
-    font-size: 16px;
-    letter-spacing: 2px;
-    color: #bfb9b9;
 }
 /*Footer*/
 footer{
     height: 33px;
-    margin-top: 350px;
+    margin-top: 80px;
     padding-top: 25px;
     background-color: #cbbb9a;
     color: #2f2f2f;
