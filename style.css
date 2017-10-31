@@ -206,8 +206,8 @@ hr {
     border: 1px solid #cbbb9a;
     border-radius: 15%;
     padding: 2px;
-    width: 22%;
-    height: 32%;
+    width: 145px;
+    height: 200px;
     box-shadow: 15px 10px 20px #bfb9b9;
 }
 /*Footer*/
@@ -219,4 +219,31 @@ footer{
     color: #2f2f2f;
     text-align: center;
 }
-
+/*phone*/
+@media  (max-width: 576px) {
+    .row {
+        width: 100%;
+    }
+}
+@media  (min-width: 576px) and (max-width: 767px)
+    .row {
+        width: 100%;
+    }
+}
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .row {
+        width: 100%;
+    }
+}
+/*deskop*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    .row {
+        width: 100%;
+    }
+}
+@media (min-width: 1200){
+    .row {
+        width: 100%;
+    }
+}
