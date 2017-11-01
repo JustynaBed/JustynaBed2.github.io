@@ -13,7 +13,7 @@ body {
 .navigation {
     background-color: white;
     width: 100%;
-    height: 80px;
+    height: 13%;
     position: fixed;
     top: 0px;
 }
@@ -74,13 +74,11 @@ a, a:focus, a:visited, a:link {
     border: solid 1px #cbbb9a;
     border-radius: 8px;
     background-color: rgba(255,255,255,0.8);
-    width: 20%;
-    height: 60%;
     top: 2px;
     position: static;
     float: right;
     padding: 20px 12px 20px 4px;
-    margin: 10px 10px 30px 10px;
+    /*margin: 10px 10px 30px 10px;*/
     max-width: 100%;
 }
 .about-me-right h3 {
@@ -112,7 +110,6 @@ a, a:focus, a:visited, a:link {
     height: 37%;
     width: 37%;
     margin-left: 30%;
-    margin-right: 150px;
 }
 #project p  {
     font-family: Georgia;
@@ -162,7 +159,6 @@ hr {
     cursor: pointer;
 }
 .contact-right {
-    padding-top: 20px;
     font-family: "Book Antiqua", serif;
     color: #585858;
     flex: auto;
@@ -186,7 +182,6 @@ hr {
 }
 .contact-right p {
     text-align: justify;
-    margin-left: 35%;
 }
 .contact-left {
     text-align: center;
@@ -210,12 +205,12 @@ footer{
 }
 /*RWD*/
 
-/* For mobile phones: */
+/* For mobile phones xs: */
 [class*="col-"] {
     width: 100%;
 }
-@media (min-width: 1201px) {
-    /* For desktop: */
+@media (min-width: 1200px) {
+    /* For desktop xl: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -229,8 +224,23 @@ footer{
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
-@media (min-width: 768px) and (max-width: 1200px) {
-    /* For tablets: */
+@media (min-width: 992px) and (max-width: 1199px){
+    /* For desktop lg: */
+    .col-l-1 {width: 8.33%;}
+    .col-l-2 {width: 16.66%;}
+    .col-l-3 {width: 25%;}
+    .col-l-4 {width: 33.33%;}
+    .col-l-5 {width: 41.66%;}
+    .col-l-6 {width: 50%;}
+    .col-l-7 {width: 58.33%;}
+    .col-l-8 {width: 66.66%;}
+    .col-l-9 {width: 75%;}
+    .col-l-10 {width: 83.33%;}
+    .col-l-11 {width: 91.66%;}
+    .col-l-12 {width: 100%;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* For tablets md: */
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
     .col-m-3 {width: 25%;}
@@ -244,7 +254,8 @@ footer{
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
 }
-@media (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
+    /* For mobile phones sm: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
