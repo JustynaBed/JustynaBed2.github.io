@@ -1,6 +1,9 @@
 * {
     margin: auto;
 }
+.container {
+    width: 100%;
+}
 body {
     color: black;
     background-color: #fefffd;
@@ -24,7 +27,6 @@ body {
     letter-spacing: 3px;
     padding: 15px;
 }
-
 /*Links*/
 a:hover {
     text-shadow: #cbbb9a 0em 0.2em 0.8em
@@ -42,7 +44,6 @@ a, a:focus, a:visited, a:link {
     text-transform: uppercase;
     font-weight: 700;
     color: #1d1010;
-
 }
 /*Start,home*/
 .home {
@@ -56,27 +57,25 @@ a, a:focus, a:visited, a:link {
     padding-bottom: 300px;
 }
 /*about-me*/
-#about-me h2 {
-    color: #56282D;
-    padding-top: 40px;
-}
-.about-me-left {
+#about-me {
     height: 650px;
     max-width: 100%;
-    min-width: 100px;
     background-image: url("Images/BackgroundAboutMe.jpg");
     background-attachment: fixed;
     background-position: 50% 50%;
     background-size: cover ;
-    margin-bottom: 0px;
-    margin-top: 100px;
+    margin-top: 80px;
+}
+#about-me h2 {
+    color: #56282D;
+    padding-top: 40px;
 }
 .about-me-right {
     border: solid 1px #cbbb9a;
     border-radius: 8px;
     background-color: rgba(255,255,255,0.8);
-    width: 370px;
-    height: 310px;
+    width: 20%;
+    height: 60%;
     top: 2px;
     position: static;
     float: right;
@@ -110,17 +109,17 @@ a, a:focus, a:visited, a:link {
     border: 2px solid #6A6262;
     border-radius: 2px;
     padding: 8px;
-    height: 250px;
-    width: 250px;
-    margin-left: 150px;
+    height: 37%;
+    width: 37%;
+    margin-left: 30%;
     margin-right: 150px;
 }
 #project p  {
     font-family: Georgia;
     font-size: 15px;
     color: #2B2C28;
-    width: 270px;
-    margin-left: 150px;
+    width: 39%;
+    margin-left: 30%;
     margin-top: 10px;
     text-align: justify;
 }
@@ -144,19 +143,11 @@ hr {
 /*Skills*/
 #skills {
     padding-bottom: 100px;
-    width: 100%;
     background-color:  #F5F9E9;
-    max-width: 100%;
 }
-.skills-left{
-    width: 100%;
-}
-.skills-right {
+.skills {
     padding: 30px 0;
-    /*display: flex;*/
-    flex: 0 25%;
     text-align: center;
-    width: 100%;
     letter-spacing: 20px;
 }
 /*Contact*/
@@ -174,7 +165,6 @@ hr {
     padding-top: 20px;
     font-family: "Book Antiqua", serif;
     color: #585858;
-    max-width: 100%;
     flex: auto;
 }
 .contact-right img {
@@ -199,7 +189,6 @@ hr {
     margin-left: 35%;
 }
 .contact-left {
-    flex: 2;
     text-align: center;
 }
 .picture-me {
@@ -219,31 +208,56 @@ footer{
     color: #2f2f2f;
     text-align: center;
 }
-/*phone*/
-@media  (max-width: 576px) {
-    .row {
-        width: 100%;
-    }
+/*RWD*/
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
 }
-@media  (min-width: 576px) and (max-width: 767px)
-    .row {
-        width: 100%;
-    }
+@media (min-width: 1201px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 }
-/*tablet*/
-@media (min-width: 768px) and (max-width: 991px) {
-    .row {
-        width: 100%;
-    }
+@media (min-width: 768px) and (max-width: 1200px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
 }
-/*deskop*/
-@media (min-width: 992px) and (max-width: 1200px) {
-    .row {
-        width: 100%;
-    }
+@media (max-width: 767px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
 }
-@media (min-width: 1200){
-    .row {
-        width: 100%;
-    }
+.container {
+    width: 100%;
 }
