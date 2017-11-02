@@ -66,19 +66,13 @@ a, a:focus, a:visited, a:link {
     background-size: cover ;
     margin-top: 80px;
 }
-#about-me h2 {
-    color: #56282D;
-    padding-top: 40px;
-}
 .about-me-right {
     border: solid 1px #cbbb9a;
     border-radius: 8px;
     background-color: rgba(255,255,255,0.8);
-    top: 2px;
-    position: static;
     float: right;
-    padding: 20px 12px 20px 4px;
-    /*margin: 10px 10px 30px 10px;*/
+    padding: 20px 4px 20px 4px;
+    margin: 70px 10px 20px 10px;
     max-width: 100%;
 }
 .about-me-right h3 {
