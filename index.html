@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy|Yrsa" rel="stylesheet">
     <title>Justyna Bednarko Portfolio</title>
 </head>
 <body>
 <div class="container">
     <header>
         <section id="start">
-            <nav class="navigation fixed">
-                <div class="col-12 col-l-6 col-m-6 col-s-6">
-                    <ul>
-                        <li><a href="#start">HOME</a></li>
-                        <li><a href="#about-me">ABOUT ME</a></li>
-                        <li><a href="#skills">SKILLS</a></li>
-                        <li><a href="#project">MY WORK</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                    </ul>
-                </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#start">HOME</a></li>
+                    <li><a href="#about-me">ABOUT ME</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#project">MY WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
             </nav>
         </section>
         <section class="home">
@@ -27,10 +26,13 @@
     </header>
     <main>
         <section id="about-me">
-                <div class="about-me-right col-3 col-l-3 col-m-4 col-s-6">
+            <div class="about-me-content">
+                <div class="about-me-left"></div>
+                <div class="about-me-right">
                     <h3>ABOUT ME</h3><br />
                     <p> Hello, My name is Justyna Bednarko. I attend the Front-end Course at InfoShare Academy where
-                        I am learning about building and designing websites.<br><br>
+                        I am learning about building and designing websites.
+                        <br><br>
                         I like spending my free time in an active way, like rollerblading or jogging.
                         Those activities make me feel more relax and happy.
                         My other passion is travelling. I really like discovering new places where
@@ -39,42 +41,59 @@
                         I can breathe with fresh air surrounded by beautiful views.
                     </p>
                 </div>
+            </div>
         </section>
         <section id="project">
                 <h2 class="section-title">Project</h2>
-            <div class="project-left col-6 col-l-5 col-m-5 col-s-12">
+            <div class="project-content">
+                <div class="project-left">
                 <a target="_blank" href="https://github.com/JustynaBed/JustynaBed.github.io"><img src="Images/project1.png" class="img_project"></a>
                 <p>This link refers to my repository on Github where you can read
-                    about the <strong>html</strong> code and <strong>css</strong> styles which I used to generate my portfolio.</p>
+                    about the <strong>html</strong> code and <strong>css</strong> styles which I used to generate my portfolio.
+                </p>
             </div>
-            <div class="project-right col-6 col-l-5 col-m-5 col-s-12">
+            <div class="project-right">
                 <a target="_blank" href="https://github.com/infoshareacademy/jfdz7-fantastycznaCzworka"><img src="Images/project2.png" class="img_project"></a>
                 <p><strong>Wishes generator</strong> - it is a project created by the team <em>Fantastic Four</em>.
                     The application contains a connection to a social media portal.
                     It allows you to send personalized greetings faster and more efficiently for any occasion.</p>
             </div>
-            <div class="clear"></div>
+            </div>
         </section>
         <section id="skills">
             <hr>
             <h2 class="section-title">Skills</h2>
-                <div class="skills col-12 col-l-12 col-m-6 col-s-6">
-                    <img src="Images/skills1c.png">
-                    <img src="Images/skills2c.png">
-                    <img src="Images/skills3a.png">
-                    <img src="Images/skills4c.png">
-                    <img src="Images/skills5c.png">
-                    <img src="Images/skills6c.png">
-                    <img src="Images/skills7c.png">
+                <div class="skills-content">
+                    <div class="skills">
+                        <img class="skills-img" src="Images/skills1c.png">
+                    </div>
+                    <div class="skills">
+                        <img class="skills-img" src="Images/skills2c.png">
+                    </div>
+                    <div class="skills">
+                        <img class="skills-img" src="Images/skills3a.png">
+                    </div>
+                    <div class="skills">
+                        <img class="skills-img" src="Images/skills4c.png">
+                    </div>
+                    <div class="skills">
+                        <img class="skills-img" src="Images/skills5c.png">
+                    </div>
+                    <div class="skills">
+                        <img class="skills-img" src="Images/skills6c.png">
+                    </div>
+                    <div class="skills">
+                        <img class="skills-img" src="Images/skills7c.png">
+                    </div>
                 </div>
         </section>
         <section id="contact">
             <h2 class="section-title">Contact</h2>
             <div class="info__container">
-                <div class="contact-left col-7 col-l-7 col-m-5 col-s-11">
+                <div class="contact-left">
                     <img src="Images/PictureMe.jpg" class="picture-me">
                 </div>
-                <div class="contact-right col-4 col-l-4 col-m-4 col-s-11">
+                <div class="contact-right">
                     <h4><strong>Justyna Bednarko</strong></h4>
                     <h5>Junior Frontend Developer</h5><br />
                     <hr><br>
@@ -89,9 +108,9 @@
         </section>
     </main>
     <footer>
-        <div class="footer col-12 col-l-12 col-m-6 col-s-6">
+        <div class="footer">
         <section id="footer">
-            <strong>Justyna Bednarko</strong> &copy; 2017
+            <p><strong>Justyna Bednarko</strong> &copy; 2017</p>
         </section>
         </div>
     </footer>
