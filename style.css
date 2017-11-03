@@ -226,9 +226,11 @@ footer{
     color: #2f2f2f;
     text-align: center;
 }
-/*RWD*/
-/* Extra Small Screen*/
 
+
+/*RWD*/
+
+/* Extra Small Screen xs*/
 @media (max-width: 576px)  {
     .container , .navigation {
         width: 100%;
@@ -252,7 +254,7 @@ footer{
     }
 }
 
-/*Small screen*/
+/*Small screen sm*/
 @media screen and (min-width: 576px) and (max-width: 767px)  {
     .container , .navigation {
         width: 550px;
@@ -263,7 +265,7 @@ footer{
     }
 }
 
-/*tablet*/
+/*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 991px){
     .container , .navigation {
         width: 750px;
