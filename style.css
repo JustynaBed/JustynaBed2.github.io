@@ -123,13 +123,12 @@ a, a:focus, a:visited, a:link {
     border: 2px solid #6A6262;
     border-radius: 2px;
     padding: 8px;
-    height: 37%;
+    /*height: 37%;*/
     width: 37%;
     margin-left: 28%;
     margin-right: 28%;
 }
 #project p  {
-
     color: #2B2C28;
     width: 40%;
     margin-left: 28%;
@@ -231,7 +230,7 @@ footer{
 /*RWD*/
 
 /* Extra Small Screen xs*/
-@media (max-width: 576px)  {
+@media (max-width: 575px)  {
     .container , .navigation {
         width: 100%;
     }
@@ -250,7 +249,32 @@ footer{
     .about-me-right {
         margin: 10px 10px;
         max-width: 100%;
-        max-height: 65%;
+        max-height: 39%;
+    }
+    #project {
+        max-width: 100%;
+
+    }
+    .project-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img_project {
+        width: 50%;
+        margin-left: 24%;
+        margin-right: 14%;
+    }
+    #project p  {
+        width: 55%;
+        text-align: justify;
+        margin-left: 24%;
+        margin-right: 14%;
+    }
+    .project-left {
+        flex: 1;
+    }
+    .project-right {
+        flex: 1;
     }
 }
 
@@ -263,14 +287,67 @@ footer{
         padding: 5px;
         font-size: 12px;
     }
+    #project {
+        max-width: 100%;
+
+    }
+    .project-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img_project {
+        width: 40%;
+        margin-left: 28%;
+        margin-right: 10%;
+        text-align: justify;
+    }
+    #project p  {
+        width: 50%;
+        text-align: justify;
+        margin-right: 0%;
+    }
+    .project-left {
+        flex: 0 50%;
+        margin: 0;
+    }
+    .project-right {
+        flex: 0 50%;
+    }
 }
 
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 991px){
     .container , .navigation {
         width: 750px;
+    }
+    #project {
+        max-width: 100%;
 
     }
+    .project-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img_project {
+        width: 50%;
+        margin-left: 20%;
+        margin-right: 0%;
+        text-align: justify;
+    }
+    #project p  {
+        width: 50%;
+        margin-left: 20%;
+        text-align: justify;
+        margin-right: 0%;
+    }
+    .project-left {
+        flex: 0 50%;
+        margin: 0;
+    }
+    .project-right {
+        flex: 0 50%;
+    }
+
 }
 /*!* For desktop lg: *!*/
 @media only screen and (min-width: 992px) and (max-width: 1199px){
