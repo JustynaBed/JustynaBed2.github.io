@@ -34,11 +34,12 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
-    box-shadow: inset 0 -15px 8px -12px rgba(0,0,0,.2);
+    box-shadow: inset 0 -15px 8px -12px rgba(0,0,0, 0.2);
     /*width: 1180px;*/
 }
 .menu-icon {
-    border: 0.5px solid #1d1010;
+    border: 0.5px solid #2f2f2f;
+    background-color: rgba(147,147,129, 0.5);
     border-radius: 5px;
     display: none;
     width: 40px;
@@ -91,19 +92,19 @@ a, a:focus, a:visited, a:link {
     padding-bottom: 300px;
 }
 .home h1 {
-     font-size: 60px;
-text-align: center;
+     font-size: 56px;
+    text-align: center;
      color: white;
-     font-family: vivaldi;
+     font-family: "Merienda One", sans-serif;
      letter-spacing: 2px;
      padding-top: 330px;
  }
 .home h2 {
-    font-size: 28px;
+    font-size: 24`px;
     text-align: center;
     color: white;
     text-shadow: 4px 4px 4px #aaa;
-    font-family: "Lucida Calligraphy";
+    font-family: "Merienda One", sans-serif;
     /*Castellar Vijaya*/
 }
 /*about-me*/
@@ -199,7 +200,7 @@ hr {
 /*Skills*/
 #skills {
     padding-bottom: 100px;
-    background-color:  #F5F9E9;
+    background-color:  #f8fbf0;
 }
 .skills-content {
     display: flex;
@@ -213,10 +214,10 @@ hr {
 }
 .skills > p {
     padding-top: 20px;
-    letter-spacing: 2px;
-    color: #2f2f2f;
-    font-size: 18px;
-    font-family: Oxygen, sans-serif;
+    letter-spacing: 3px;
+    color: #585858;
+    font-size: 22px;
+    font-family: "Londrina Shadow", sans-serif;
     font-weight: 600;
 }
 .skills-img {
@@ -235,7 +236,7 @@ hr {
     cursor: pointer;
 }
 .contact-right {
-    font-family: Oxygen, sans-serif;
+    font-family: Merriweather, sans-serif;
     color: #585858;
     flex: 1;
 }
@@ -283,8 +284,6 @@ footer{
 }
 
 
-
-
 /*RWD*/
 
 /* Extra Small Screen xs*/
@@ -293,13 +292,11 @@ footer{
         width: 100%;
     }
     header {
-        position: absolute;
+        position: fixed;
     }
-
     .menu-icon {
         display:inline-block;
     }
-
     nav ul, nav:active ul {
         display: none;
         position: absolute;
@@ -310,11 +307,9 @@ footer{
         width: 30%;
         border-radius: 6px;
     }
-
     nav:hover ul {
         display: block;
     }
-
     .navigation li {
         text-align: center;
         display: block;
@@ -336,8 +331,9 @@ footer{
         align-items: center;
     }
     .about-me-right {
-        padding: 2px;
-        margin: 0 2px;
+        margin-left: 4%;
+        margin-right: 4%;
+        padding: 8px 10px 10px 30px;
     }
     .about-me-right .about-me-left {
         flex: 1;
@@ -401,13 +397,11 @@ footer{
         width: 700px;
     }
     header {
-        position: absolute;
+        position: fixed;
     }
-
     .menu-icon {
         display:inline-block;
     }
-
     nav ul, nav:active ul {
         display: none;
         position: absolute;
@@ -418,11 +412,9 @@ footer{
         width: 20%;
         border-radius: 6px;
     }
-
     nav:hover ul {
         display: block;
     }
-
     nav li {
         text-align: center;
         width: 100%;
