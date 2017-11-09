@@ -100,7 +100,7 @@ a, a:focus, a:visited, a:link {
      padding-top: 330px;
  }
 .home h2 {
-    font-size: 24`px;
+    font-size: 26px;
     text-align: center;
     color: white;
     text-shadow: 4px 4px 4px #aaa;
@@ -151,9 +151,10 @@ a, a:focus, a:visited, a:link {
     flex: 0.8;
 }
 .about-me-right article {
+    margin-right: 100px;
     text-align: justify;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
 
 }
 /*project*/
@@ -338,6 +339,9 @@ footer{
     .about-me-right .about-me-left {
         flex: 1;
     }
+    .about-me-right article {
+        margin-right: 10px;
+    }
     .img_project {
         width: 50%;
         margin-left: 24%;
@@ -429,6 +433,9 @@ footer{
     }
     .about-me-right {
         padding: 3px;
+    }
+    .about-me-right article {
+        margin-right: 20px;
     }
     .img_project {
         width: 50%;
