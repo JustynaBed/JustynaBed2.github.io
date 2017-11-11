@@ -1,124 +1,144 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bs_styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Sorts+Mill+Goudy|Oxygen|Merienda+One|Londrina+Shadow" rel="stylesheet">
     <title>Justyna Bednarko Portfolio</title>
 </head>
 <body>
-<div class="container">
     <header>
-        <section id="start">
-            <nav class="navigation">
-            <a class="menu-icon"></a>
-                <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about-me">ABOUT ME</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#project">MY WORK</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#about-me">ABOUT ME</a></li>
+                            <li><a href="#skills">SKILLS</a></li>
+                            <li><a href="#project">MY WORK</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
             </nav>
-        </section>
     </header>
     <main>
-        <section id="home">
-            <div class="home">
+        <section id="home" class="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
                 <h1>Justyna Bednarko</h1><br />
                 <h2>Junior Frontend Developer</h2>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="about-me">
-                <h2 class="section-title">About me</h2>
-            <div class="about-me-content">
-                <div class="about-me-left">
-                    <figure class="photo">
-                        <a><img src="Images/JB.jpg" alt="Justyna Bednarko"></a>
-                    </figure>
-                </div>
-                <div class="about-me-right">
-                    <article> Hello, My name is Justyna Bednarko. I attend the Front-end Course at InfoShare Academy where
+            <div class="about-me">
+                <h2 class="col-md-12 section-title">About me</h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <img src="Images/JB.jpg" class="img-responsive img-thumbnail center-block" alt="Picture of me">
+                    </div>
+                    <div class="container about-me-right">
+                    <div class="col-lg-7 col-md-8 col-sm-12">
+                        <article> Hello, My name is Justyna Bednarko. I attend the Front-end Course at InfoShare Academy where
                         I am learning about building and designing websites.
-                        <br><br>
+                            <br><br>
                         I like spending my free time in an active way, like cycling or jogging.
                         Those activities make me feel more relax and happy.
                         My other passion is travelling. I really like discovering new places where
                         I can learn about the culture and cuisine of other countries.
                         Moreover, I cannot imagine my life without mountains where
                         I can breathe with fresh air surrounded by beautiful views.
-                    </article>
+                        </article>
+                    </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="project">
-                <h2 class="section-title">Project</h2>
-            <div class="project-content">
-                <div class="project-left">
-                    <a target="_blank" href="https://github.com/JustynaBed/JustynaBed.github.io"><img src="Images/project1.png" class="img_project"></a>
+            <div class="container-fluid">
+                <div class="row">
+                    <h2 class="col-md-12 section-title">Project</h2>
+                </div>
+                <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-offset-2 col-md-4 col-lg-offset-2 col-lg-3">
+                    <a target="_blank" href="https://github.com/JustynaBed/JustynaBed.github.io"><img src="Images/project1.png" class="img-responsive img_project"></a>
                     <p>This link refers to my repository on Github where you can read
                     about the <strong>html</strong> code and <strong>css</strong> styles which I used to generate my portfolio.
-                </p>
+                    </p>
                 </div>
-                <div class="project-right">
-                    <a target="_blank" href="https://github.com/infoshareacademy/jfdz7-fantastycznaCzworka"><img src="Images/project2.png" class="img_project"></a>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-offset-2 col-lg-3">
+                    <a target="_blank" href="https://github.com/infoshareacademy/jfdz7-fantastycznaCzworka"><img src="Images/project2.png" class="img-responsive img_project"></a>
                     <p><strong>Wishes generator</strong> - it is a project created by the team <em>Fantastic Four</em>.
                     The application contains a connection to a social media portal.
                     It allows you to send personalized greetings faster and more efficiently for any occasion.</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="skills">
             <hr>
             <h2 class="section-title">Skills</h2>
-                <div class="skills-content">
-                    <div class="skills">
-                        <img class="skills-img" src="Images/skills1c.png">
-                        <p>HTML5</p>
-                    </div>
-                    <div class="skills">
-                        <img class="skills-img" src="Images/skills2c.png">
-                        <p>CSS3</p>
-                    </div>
-                    <div class="skills">
-                        <img class="skills-img" src="Images/skills3a.png">
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="skills">
-                        <img class="skills-img" src="Images/skills4c.png">
-                        <p>Git & GitHub</p>
-                    </div>
-                    <div class="skills">
-                        <img class="skills-img" src="Images/skills5c.png">
-                        <p>Bootstrap</p>
-                    </div>
-                    <div class="skills">
-                        <img class="skills-img" src="Images/skills6c.png">
-                        <p>jQuery</p>
-                    </div>
-                    <div class="skills">
-                        <img class="skills-img" src="Images/skills7c.png">
-                        <p>Linux</p>
-                    </div>
+            <div class="container skills">
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <img class="img-responsive center-block" src="Images/skills1c.png"/>
+                    <p>HTML5</p>
                 </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <img class="img-responsive center-block" src="Images/skills2c.png"/>
+                    <p>CSS3</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <img class="img-responsive center-block" src="Images/skills3a.png"/>
+                    <p>JavaScript</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <img class="img-responsive center-block" src="Images/skills4c.png"/>
+                    <p>Git & GitHub</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-4">
+                    <img class="img-responsive center-block" src="Images/skills5c.png"/>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-4">
+                    <img class="img-responsive center-block" src="Images/skills6c.png"/>
+                    <p>jQuery</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                    <img class="img-responsive center-block" src="Images/skills7c.png"/>
+                    <p>Linux</p>
+                </div>
+            </div>
         </section>
         <section id="contact">
             <h2 class="section-title">Contact</h2>
-            <div class="info__container">
-                <div class="contact-left">
-                    <img src="Images/PictureMe.jpg" class="picture-me">
+            <div class="container">
+                <div class="col-xs-offset-3 col-xs-6 col-sm-offset-2 col-sm-4 col-sm-4 col-md-3 col-lg-offset-2 col-lg-2">
+                    <img src="Images/PictureMe.jpg" class="mx-auto img-rounded img-responsive center-block">
                 </div>
-                <div class="contact-right">
-                    <h4><strong>Justyna Bednarko</strong></h4>
-                    <h5>Junior Frontend Developer</h5><br />
-                    <hr><br>
-                    <p><a target="_blank" href="mailto:justyna.bednarko@gmail.com"><img src="Images/contact1.jpg"> justyna.bednarko@gmail.com</a><br />
-                        <img src="Images/contact2.jpg"> 663-093-012<br />
-                        <img src="Images/contact3.jpg"> bednarko_justyna<br />
-                        <a target="_blank" href="https://www.linkedin.com/in/justyna-bednarko-33972814a"><img src="Images/contact4.jpg"> justyna-bednarko</a><br />
-                        <a target="_blank" href="https://github.com/JustynaBed"><img src="Images/contact5.jpg"> JustynaBed</a>
-                    </p>
+                <div class="row contact-right text-center">
+                    <div class="col-xs-12 col-sm-4 col-sm-6 col-md-5 col-lg-offset-3 col-lg-4">
+                        <h4><strong>Justyna Bednarko</strong></h4>
+                        <h5>Junior Frontend Developer</h5>
+                        <hr>
+                        <span class="glyphicon glyphicon-envelope"><a target="_blank" href="mailto:justyna.bednarko@gmail.com"> justyna.bednarko@gmail.com</a></span><br />
+                        <span class="glyphicon glyphicon-earphone"> 663-093-012<br /></span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -130,6 +150,9 @@
         </section>
         </div>
     </footer>
-</div>
+
+
+<script src="bootstrap/jquery.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

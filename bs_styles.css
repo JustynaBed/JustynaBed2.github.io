@@ -1,0 +1,160 @@
+* {
+    margin: auto;
+}
+body {
+    color: black;
+    background-color: #fefffd;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+p {
+    font-family: 'Yrsa', serif;
+    font-size: 14px;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 21px;
+}
+h5 {
+    font-size: 14px;
+}
+/*menu*/
+.navbar-default {
+    background-color: white;
+    box-shadow: inset 0 -15px 8px -12px rgba(0,0,0, 0.2);
+    border: none;
+}
+.navbar {
+    border-radius:0;
+    padding:20px 0;
+    margin-bottom:0;
+}
+a:hover {
+    text-shadow: #cbbb9a 0em 0.2em 0.8em;
+}
+a, a:focus, a:visited, a:link {
+    color: #70685b;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*home*/
+.home {
+    width: 100%;
+    min-height:600px;
+    background-image: url("Images/background.jpg");
+    background-attachment: fixed;
+    background-position: 49% 40%;
+    background-size: cover;
+    /*margin-top: 30px;*/
+    padding-bottom: 300px;
+}
+.home h1 {
+    font-size: 56px;
+    text-align: center;
+    color: white;
+    font-family: "Merienda One", sans-serif;
+    letter-spacing: 2px;
+    padding-top: 280px;
+}
+.home h2 {
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px #aaa;
+    font-family: "Merienda One", sans-serif;
+    /*Castellar Vijaya*/
+}
+/*Title*/
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #1d1010;
+}
+/*about-me*/
+#about-me {
+    padding-top: 20px;
+    background-color: #F5F9E9;
+}
+.about-me img{
+    max-width: 300px;
+}
+.about-me .img-thumbnail {
+    padding: 10px 10px 20px 10px;
+    border-radius:0;
+    background: white;
+}
+.about-me-right article {
+    text-align: justify;
+    color: black;
+    font-size: 16px;
+    margin: 50px 10px;
+}
+/*project*/
+#project {
+    background-color: #F5F9E9;
+    padding: 15px 0px;
+    max-width: 100%;
+}
+.img_project {
+    border: 2px solid #6A6262;
+    border-radius: 2px;
+    padding: 8px;
+}
+/*skills*/
+#skills {
+    padding-bottom: 100px;
+    background-color:  #f8fbf0;
+}
+.skills p {
+    padding-top: 20px;
+    color: #585858;
+    font-size: 22px;
+    font-family: "Londrina Shadow", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.skills-img {
+    margin-left: 20px;
+}
+/*contact*/
+.img-rounded {
+    box-shadow: 15px 10px 20px #bfb9b9;
+    border: 1px solid #cbbb9a;
+    border-radius: 15%;
+}
+.contact-right h4 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #2f2f2f;
+}
+.contact-right h5 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #bfb9b9;
+}
+/*footer*/
+footer{
+    height: 60px;
+    margin-top: 80px;
+    padding-top: 25px;
+    background-color: #cbbb9a;
+    color: #2f2f2f;
+    text-align: center;
+}
+hr {
+    border: 50px;
+    height: 1px;
+    margin-top: 0px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
