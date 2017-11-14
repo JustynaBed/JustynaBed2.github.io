@@ -48,7 +48,7 @@ a, a:focus, a:visited, a:link {
 .home {
     width: 100%;
     min-height:600px;
-    background-image: url("Images/background.jpg");
+    background-image: url("Images/background2.jpg");
     background-attachment: fixed;
     background-position: 49% 40%;
     background-size: cover;
@@ -104,6 +104,13 @@ a, a:focus, a:visited, a:link {
     background-color: #F5F9E9;
     padding: 15px 0px;
     max-width: 100%;
+}
+#project p  {
+    color: #2B2C28;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 16px;
 }
 .img_project {
     border: 2px solid #6A6262;
