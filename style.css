@@ -152,11 +152,11 @@ a, a:focus, a:visited, a:link {
 }
 .btn-default.active {
     color: #333;
-    background-color: #e8ecdc;
+    background-color: #d3d7c7;
     border-color: #adadad;
 }
 .btn-default.active:hover {
-    background-color: #cbcfbf;
+    background-color: #e0e4d4;
     border-color: #a9a9a9;
 }
 /*project*/
