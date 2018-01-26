@@ -2,18 +2,24 @@
   "name": "justyna",
   "version": "1.0.0",
   "description": "package",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "test": "exit",
-    "build": "webpack"
+    "test":,
+    "build": "webpack",
+    "prebuild": "del-cli dist -f",
+    "start": "npm run build"
   },
   "author": "JB",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-minify": "^0.2.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "del-cli": "^1.1.0"
   }
 }
