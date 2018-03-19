@@ -64,9 +64,14 @@ h5 {
 .navbar-right {
     margin-right: 40px;
 }
-/*.collapse {*/
-    /*display: block;*/
-/*}*/
+
+.anchor {
+    display: block;
+    visibility: hidden;
+    height: 60px;
+    margin-top: -60px;
+
+}
 
 /*Links*/
 a:hover {
@@ -120,7 +125,7 @@ a, a:focus, a:visited, a:link {
 }
 
 /*about-me*/
-#about-me {
+#section_about-me {
     padding-top: 20px;
     background-color: #F5F9E9;
 }
@@ -194,7 +199,7 @@ a, a:focus, a:visited, a:link {
 }
 
 /*project*/
-#project {
+#section_project {
     background-color: #F5F9E9;
     padding: 15px 0px;
     max-width: 100%;
@@ -215,7 +220,7 @@ a, a:focus, a:visited, a:link {
     margin-right: 28%;
 }
 
-#project p  {
+#section_project p  {
     color: #2B2C28;
     width: 40%;
     margin-left: 28%;
@@ -244,7 +249,7 @@ hr {
 }
 
 /*Skills*/
-#skills {
+#section_skills {
     padding-bottom: 50px;
     background-color:  #f8fbf0;
 }
@@ -377,7 +382,7 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-    #project p  {
+    #section_project p  {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
@@ -434,7 +439,7 @@ footer{
         margin-right: 10%;
         text-align: justify;
     }
-    #project p  {
+    #section_project p  {
         width: 85%;
         text-align: justify;
         margin-left: 10%;
@@ -471,7 +476,7 @@ footer{
 
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 991px){
-    #project {
+    #section_project {
         max-width: 100%;
 
     }
@@ -485,7 +490,7 @@ footer{
         margin-right: 0%;
         text-align: justify;
     }
-    #project p  {
+    #section_project p  {
         width: 50%;
         margin-left: 20%;
         text-align: justify;
@@ -506,7 +511,7 @@ footer{
 }
 /*!* For desktop lg: *!*/
 @media only screen and (min-width: 992px) and (max-width: 1199px){
-    #project {
+    #section_project {
         max-width: 100%;
 
     }
@@ -520,7 +525,7 @@ footer{
         margin-right: 0%;
         text-align: justify;
     }
-    #project p  {
+    #section_project p  {
         width: 50%;
         margin-left: 20%;
         text-align: justify;
@@ -536,7 +541,7 @@ footer{
 }
 /*!* For desktop xl: *!*/
 @media only screen and (min-width: 1199px){
-    #project {
+    #section_project {
         max-width: 100%;
 
     }
@@ -550,7 +555,7 @@ footer{
         margin-right: 0%;
         text-align: justify;
     }
-    #project p  {
+    #section_project p  {
         width: 50%;
         margin-left: 20%;
         text-align: justify;
