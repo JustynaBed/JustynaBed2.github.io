@@ -64,6 +64,9 @@ h5 {
 .navbar-right {
     margin-right: 40px;
 }
+/*.collapse {*/
+    /*display: block;*/
+/*}*/
 
 /*Links*/
 a:hover {
@@ -90,7 +93,7 @@ a, a:focus, a:visited, a:link {
 .home {
     width: 100%;
     min-height:600px;
-    background-image: url("Images/background2.jpg");
+    background-image: url("../Images/background2.jpg");
     background-attachment: fixed;
     background-position: 49% 40%;
     background-size: cover;
