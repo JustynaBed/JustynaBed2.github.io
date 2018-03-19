@@ -1,31 +1,39 @@
 * {
     margin: auto;
 }
+
 body {
     color: black;
     background-color: #fefffd;
     font-family: 'Sorts Mill Goudy', serif;
 }
+
 p {
     font-family: 'Yrsa', serif;
     font-size: 14px;
 }
+
 h1 {
     font-size: 30px;
 }
+
 h2 {
     font-size: 25px;
 }
+
 h3 {
     font-size: 20px;
 }
+
 h4 {
     font-size: 21px;
 }
+
 h5 {
     font-size: 14px;
 
 }
+
 /*menu*/
 .navbar-default {
     background-color: white;
@@ -33,33 +41,41 @@ h5 {
     border: none;
 
 }
+
 .navbar-default .navbar-toggle {
     border-color: #ddd;
     background-color: #dcdcdc;
 }
+
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: #c0c0c0;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #535353;
 }
+
 .navbar {
     border-radius:0;
     padding:10px 0;
     margin-bottom:0;
 }
+
 .navbar-right {
     margin-right: 40px;
 }
+
 /*Links*/
 a:hover {
     text-shadow: #cbbb9a 0em 0.2em 0.8em;
 }
+
 a, a:focus, a:visited, a:link {
     color: #2f2f2f;
     text-decoration: none;
     cursor: pointer;
 }
+
 /*Title*/
 .section-title {
     margin-top: 30px;
@@ -69,6 +85,7 @@ a, a:focus, a:visited, a:link {
     font-weight: 700;
     color: #1d1010;
 }
+
 /*Start,home*/
 .home {
     width: 100%;
@@ -80,6 +97,7 @@ a, a:focus, a:visited, a:link {
     /*margin-top: 30px;*/
     padding-bottom: 300px;
 }
+
 .home h1 {
      font-size: 56px;
     text-align: center;
@@ -88,6 +106,7 @@ a, a:focus, a:visited, a:link {
      letter-spacing: 2px;
      padding-top: 330px;
  }
+
 .home h2 {
     font-size: 26px;
     text-align: center;
@@ -96,20 +115,24 @@ a, a:focus, a:visited, a:link {
     font-family: "Merienda One", sans-serif;
     /*Castellar Vijaya*/
 }
+
 /*about-me*/
 #about-me {
     padding-top: 20px;
     background-color: #F5F9E9;
 }
+
 .about-me-content {
     display: flex;
     flex-wrap: wrap;
 }
+
 .about-me-left {
     flex: 0.5;
     text-align: center;
     padding: 10px;
 }
+
 .photo {
     max-width: 300px;
     box-sizing: border-box;
@@ -123,6 +146,7 @@ a, a:focus, a:visited, a:link {
     flex-basis: 100%;
     max-width: 100%;
 }
+
 .about-me-right {
     max-width: 100%;
     padding: 80px 10px 10px 30px;
@@ -130,16 +154,19 @@ a, a:focus, a:visited, a:link {
     flex: 0.8;
     margin-right: 100px;
 }
+
 .about-me-right article {
     text-align: justify;
     color: black;
     font-size: 18px;
 
 }
+
 /*btn*/
 .text-center {
     text-align: center;
 }
+
 .btn {
     margin-top: 50px;
     width: 250px;
@@ -147,18 +174,22 @@ a, a:focus, a:visited, a:link {
     text-transform: uppercase;
     font-weight: 900;
 }
+
 .btn-lg {
     border-radius: 0px;
 }
+
 .btn-default.active {
     color: #333;
     background-color: #d3d7c7;
     border-color: #adadad;
 }
+
 .btn-default.active:hover {
     background-color: #e0e4d4;
     border-color: #a9a9a9;
 }
+
 /*project*/
 #project {
     background-color: #F5F9E9;
@@ -166,10 +197,12 @@ a, a:focus, a:visited, a:link {
     max-width: 100%;
 
 }
+
 .project-content {
     display: flex;
     flex-wrap: wrap;
 }
+
 .img_project {
     border: 2px solid #6A6262;
     border-radius: 2px;
@@ -178,6 +211,7 @@ a, a:focus, a:visited, a:link {
     margin-left: 28%;
     margin-right: 28%;
 }
+
 #project p  {
     color: #2B2C28;
     width: 40%;
@@ -188,10 +222,12 @@ a, a:focus, a:visited, a:link {
     font-family: 'Sorts Mill Goudy', serif;
     font-size: 16px;
 }
+
 .project-left {
     flex: 0 50%;
     margin-bottom: 3%
 }
+
 .project-right {
     flex: 0 50%;
 }
@@ -203,21 +239,25 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
 /*Skills*/
 #skills {
     padding-bottom: 50px;
     background-color:  #f8fbf0;
 }
+
 .skills-content {
     display: flex;
     flex-wrap: wrap;
 }
+
 .skills {
     flex: 1px;
     padding: 30px 0;
     text-align: center;
     letter-spacing: 20px;
 }
+
 .skills > p {
     padding-top: 20px;
     letter-spacing: 3px;
@@ -226,26 +266,31 @@ hr {
     font-family: "Londrina Shadow", sans-serif;
     font-weight: 600;
 }
+
 .skills-img {
     width: 60%;
     height: 50%;
 }
+
 /*Contact*/
 .info__container {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
 }
+
 .contact-right a:link {
     color: #2f2f2f;
     text-decoration: none;
     cursor: pointer;
 }
+
 .contact-right {
     font-family: Merriweather, sans-serif;
     color: #585858;
     flex: 1;
 }
+
 .contact-right img {
     width: 4%;
     top: 8px;
@@ -259,6 +304,7 @@ hr {
     color: #2f2f2f;
     text-align: center;
 }
+
 .contact-right h5 {
     font-size: 14px;
     letter-spacing: 2px;
@@ -266,15 +312,18 @@ hr {
     text-align: center;
     font-weight: 900;
 }
+
 .contact-right p {
     text-align: justify;
     padding: 0 30px;
     font-size: 16px;
 }
+
 .contact-left {
     flex: 1;
     text-align: center;
 }
+
 .picture-me {
     border: 1px solid #cbbb9a;
     border-radius: 15%;
@@ -282,6 +331,7 @@ hr {
     width: 25%;
     box-shadow: 15px 10px 20px #bfb9b9;
 }
+
 /*Footer*/
 footer{
     height: 60px;
