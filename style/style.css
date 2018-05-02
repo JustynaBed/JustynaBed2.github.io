@@ -74,7 +74,7 @@ a, a:focus, a:visited, a:link {
 
 .home {
     width: 100%;
-    min-height:600px;
+    height: 100vh;
     background-image: url("../img/img1.jpg");
     background-attachment: fixed;
     background-position: 49% 40%;
@@ -185,8 +185,13 @@ a, a:focus, a:visited, a:link {
     padding: 8px;
     margin-left: 20%;
     text-align: justify;
+    opacity: 1;
 }
 
+.img-project:hover {
+    background-color: #e4e4e4;
+    opacity: 0.8;
+}
 #section_project p  {
     color: #2B2C28;
     margin-top: 10px;
@@ -409,7 +414,7 @@ footer{
         position: relative;
     }
     .navbar {
-        padding: 15px 0;
+        padding: 12px 0;
     }
     .navbar-right {
         float: right !important;
@@ -422,7 +427,7 @@ footer{
 /*!* For desktop lg: *!*/
 @media only screen and (min-width: 992px){
     .navbar {
-        padding: 15px 0;
+        padding: 12px 0;
     }
     .skills {
         flex: 1;

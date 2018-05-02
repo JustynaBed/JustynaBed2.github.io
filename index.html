@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css" type="text/css">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Sorts+Mill+Goudy|Merienda+One|Londrina+Shadow" rel="stylesheet">
     <title>JB Portfolio</title>
 </head>
@@ -40,8 +41,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Justyna Bednarko</h1><br />
-                        <h2>Junior Front-end Developer</h2>
+                        <h1 data-aos="zoom-in-up" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-back"
+                            data-aos-once="true">Justyna Bednarko</h1><br />
+                        <h2 data-aos="zoom-in-up" data-aos-delay="1500" data-aos-duration="1300" data-aos-easing="ease-out-back"
+                            data-aos-once="true">Junior Front-end Developer</h2>
                     </div>
                 </div>
             </div>
@@ -53,7 +56,7 @@
         <section id="section_about-me">
             <h3 class="section-title">About me</h3>
                 <div class="about-me-content">
-                    <div class="about-me-left">
+                    <div class="about-me-left" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <figure class="photo">
                             <img src="img/img2.jpg">
                         </figure>
@@ -80,14 +83,16 @@
         <section id="section_project">
             <h3 class="section-title">Project</h3>
                <div class="project-content">
-                  <div class="project-left">
+                  <div class="project-left" data-aos="zoom-in-left" data-aos-delay="800" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                       data-aos-once="true">
                      <a target="_blank" href="https://github.com/JustynaBed/JustynaBed.github.io">
                            <img src="img/img3.jpg" class="img-project">
                      </a>
                      <p>This link refers to repository on Github which contains the code necessary to generate my portfolio. 
                      </p>
                   </div>
-                  <div class="project-right">
+                  <div class="project-right" data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                       data-aos-once="true">
                       <a target="_blank" href="http://fantastyczna-czworka.jfdz7.is-academy.pl/">
                            <img src="img/img4.jpg" class="img-project">
                       </a>
@@ -96,17 +101,19 @@
                         In this project we used: HTML, CSS, JavaScript.
                       </p>
                   </div>
-                   <div class="project-left">
+                   <div class="project-left" data-aos="zoom-in-left" data-aos-delay="800" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                        data-aos-once="true">
                        <a target="_blank" href="http://app.fantastyczna-czworka.jfdz7.is-academy.pl/">
                            <img src="img/img14.jpg" class="img-project">
                        </a>
                        <p><strong>Wishes generator Application</strong>
-                           An application allowing to send birthday wishes.
+                           - an application allowing to send birthday wishes.
                            The user has an access to standard wishes as well as the ability to add personalized wishes for family and friends.
                            In this project we used: React, React-Redux, Firebase, Semantic UI React.
                        </p>
                    </div>
-                   <div class="project-left">
+                   <div class="project-left" data-aos="zoom-in-right" data-aos-delay="800" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                        data-aos-once="true">
                        <a target="_blank" href="https://github.com/JustynaBed/Gallery.git">
                            <img src="img/img15.jpg" class="img-project">
                        </a>
@@ -185,6 +192,9 @@
                     </div>
                 </div>
         </section>
+        <div data-aos="fade-up"
+             data-aos-anchor-placement="top-center">
+        </div>
     </main>
 
     <footer>
@@ -195,8 +205,10 @@
         </div>
     </footer>
 
-<script src="bootstrap/jquery.min.js"></script>
-<script src="bootstrap/bootstrap.min.js"></script>
-<script src="js/navbar.js"></script>
+    <script src="bootstrap/jquery.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
