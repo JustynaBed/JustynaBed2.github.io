@@ -319,7 +319,7 @@ footer{
 /* Extra Small Screen xs*/
 @media (max-width: 575px)  {
     .home h1 {
-        padding-top: 250px;
+        padding-top: 210px;
     }
     .navbar-nav>li>a {
         font-size: 14px;
